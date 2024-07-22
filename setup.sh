@@ -226,11 +226,11 @@ function pasang_domain() {
 echo -e ""
 clear
 echo -e "\033[96;1m┌─────────────────────────────────────────────────┐\033[0m "
-echo -e "\e[96;1m│\e[0m \033[41;1;97;1m                ADIJAYA TUNNELING              \033[0m \e[96;1m│\e[0m"
+echo -e "\e[96;1m│\e[0m \033[44;1;96;1m                 DOMAIN SETTINGS               \033[0m \e[96;1m│\e[0m"
 echo -e "\033[96;1m└─────────────────────────────────────────────────┘\033[0m "
 echo -e ""
-echo -e "\e[37;1m Pastikan Ip vps Anda Sudah - \e[0m"
-echo -e "\e[37;1m di Pointing Ke Domain anda \e[0m"
+echo -e "\033[1;32m  1)\e[0m\e[37;1m INPUT YOUR DOMAIN   \e[0m"
+echo -e "\033[1;32m  2)\e[0m\e[37;1m INPUT RANDOM DOMAIN \e[0m"
 echo -e ""
 echo -e "\033[96;1m└─────────────────────────────────────────────────┘\033[0m "
 read -p "   Please select numbers 1-2 or Any Button(Random) : " host
