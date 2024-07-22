@@ -1,16 +1,16 @@
 ### INSTALL SCRIPT 
-<pre><code>apt-get update -y && apt install curl wget bzip2 gzip xz-utils screen && if [[ ! -d /etc/xdtmp ]]; then mkdir -p /etc/xdtmp; fi && wget -q https://raw.githubusercontent.com/rifstore/RifkyVVIP/main/setup.sh && chmod +x setup.sh && ./setup.sh</code></pre>
+<pre><code>apt-get update -y && apt install curl wget bzip2 gzip xz-utils screen && if [[ ! -d /etc/xdtmp ]]; then mkdir -p /etc/xdtmp; fi && wget -q https://raw.githubusercontent.com/Garut-SisiLaut/jawabarat/main/setup.sh && chmod +x setup.sh && ./setup.sh</code></pre>
 
 ### PERINTAH UPDATE 
-<pre><code>if [[ ! -d /etc/xdtmp ]]; then mkdir -p /etc/xdtmp; fi && wget -q https://raw.githubusercontent.com/rifstore/RifkyVVIP/main/update.sh && chmod +x update.sh && ./update.sh</code></pre>
+<pre><code>if [[ ! -d /etc/xdtmp ]]; then mkdir -p /etc/xdtmp; fi && wget -q https://raw.githubusercontent.com/Garut-SisiLaut/jawabarat/main/update.sh && chmod +x update.sh && ./update.sh</code></pre>
 
 ### FIX BACKUP ERROR
 ```
-wget -q https://raw.githubusercontent.com/rifstore/RifkyVVIP/main/fix.sh && bash fix.sh
+wget -q https://raw.githubusercontent.com/Garut-SisiLaut/jawabarat/main/fix.sh && bash fix.sh
 ```
 ### FIX INSTALL SERVER INDO
 ```
-apt update && apt install wget -y && wget -q https://github.com/rifstore/RifkyVVIP/raw/main/repo && chmod +x repo && ./repo
+apt update && apt install wget -y && wget -q https://github.com/Garut-SisiLaut/jawabarat/raw/main/repo && chmod +x repo && ./repo
 ```
 ### FIX UDP GA KONEK BJIR 🗿 
 ```
